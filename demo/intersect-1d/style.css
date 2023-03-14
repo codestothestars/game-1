@@ -1,0 +1,27 @@
+canvas {
+  border: 1px solid gray;
+}
+
+form[name=line2] {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 50px;
+}
+
+#intersecting {
+  align-items: center;
+  display: flex;
+}
+
+#intersecting #indicator {
+  background: red;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+#intersecting #indicator.on {
+  background: green;
+}

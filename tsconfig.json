@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "module": "ES2020",
+    "noEmit": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "demo/**/*.js"
+  ]
+}

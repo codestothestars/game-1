@@ -1,2 +1,1 @@
-# gamma-one
-Game one.
+# Game 1

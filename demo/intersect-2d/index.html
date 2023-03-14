@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href=style.css rel=stylesheet>
+  <script async src=script.js type=module></script>
+</head>
+
+<body>
+  <h1>2-D Line Segments Intersect</h1>
+  <canvas></canvas>
+
+  <form name=line1>
+    Line 1
+    <label>X <input name=originX type=number value=10></label>
+    <label>Y <input name=originY type=number value=100></label>
+    to
+    <label>X <input name=destinationX type=number value=70></label>
+    <label>Y <input name=destinationY type=number value=50></label>
+  </form>
+  <form name=line2>
+    Line 2
+    <label>X <input name=originX type=number value=60></label>
+    <label>Y <input name=originY type=number value=70></label>
+    to
+    <label>X <input name=destinationX type=number value=150></label>
+    <label>Y <input name=destinationY type=number value=70></label>
+  </form>
+
+  <div id=intersecting>Intersecting: <span id=indicator></span></div>
+</body>
+
+</html>
